@@ -2,20 +2,20 @@
 
 **This project uses the meta-llama/Llama-3.1-8B-Instruct model** to generate structured feedback for question-and-answer pairs extracted from a Word document (Q1.docx). The feedback is then added as comments to the same document. It is designed to provide automated, structured feedback on responses.
 
-##**Features**
+## **Features**
 
 *   **Extracts Q&A:** Reads question-answer pairs from a Word document.
 *   **Generates Feedback:** Uses LLaMA 3.1 via Hugging Face's InferenceClient to produce structured feedback (positive points, praise, and suggestions for improvement).
 *   **Adds Comments:** Inserts feedback as comments in the original Word document.
 *   **Saves Output:** Updates the input document with feedback comments.
 
-##**Prerequisites**
+## **Prerequisites**
 
 *   Python 3.8+
 *   A Hugging Face account with an API token for accessing the LLaMA model.
 *   A Word document (Q1.docx) with Q&A pairs formatted as Q1., Q2., etc., for questions and A1., A2., etc., for answers.
 
-##**Usage**
+## **Usage**
 *   Prepare the Input Document:
     *    Create a Word document (Q1.docx) with Q&A pairs. Example format:
 
@@ -27,7 +27,7 @@
 
     A2. Through training and regular audits.
 
-##**Run the Notebook**
+## **Run the Notebook**
 *   Open Comment_Project.ipynb in a Jupyter environment (e.g., Google Colab, JupyterLab).
 *   Execute all cells to:
    *   Install dependencies.
